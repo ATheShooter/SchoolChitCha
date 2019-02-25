@@ -42,8 +42,7 @@ var instructors = [
    new Instructor({
 
 	imagePath: "images/limkokwing3.jpg",
-	Instructorname:"ahmed",
-	password: "0000",
+	
 	email:"lookingto@outlook.com",
 	name:"ahmed ali",
 	sem:"5",
@@ -55,8 +54,7 @@ var instructors = [
     new Instructor({
 
 	imagePath: "images/limkokwing3.jpg",
-	Instructorname:"ahmed",
-	password: "0000",
+	
 	email:"lookingto@outlook.com",
 	name:"ahmed ali",
 	sem:"5",
@@ -67,8 +65,7 @@ var instructors = [
      new Instructor({
 
 	imagePath: "images/limkokwing3.jpg",
-	Instructorname:"ahmed",
-	password: "0000",
+	
 	email:"lookingto@outlook.com",
 	name:"ahmed ali",
 	sem:"5",
