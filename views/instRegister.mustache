@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{>head}}
+<body>
+
+  {{>navbar}}
+    <div class="main">
+
+    
+
+        <div class="container-reg">
+
+            <form method="POST" class="appointment-form" id="appointment-form">
+                <h2>Resgisteration form</h2>
+                <div class="form-group-1">
+                    <input type="text" name="name" id="name" placeholder="your full Name" required />
+                    <input type="email" name="email" id="email" placeholder="Email" required />
+                    <div class="select-list">
+                        <select name="sem" id="sem">
+                            <option slected value="">Semester</option>
+                            <option value="Sem1">Sem1</option>
+                            <option value="Sem2">Sem2</option>
+                            <option value="Sem3">Sem3</option>
+                            <option value="Sem4">Sem4</option>
+                            <option value="Sem5">Sem5</option>
+                            <option value="Sem6">Sem6</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group-2">
+                    <h3>choose facuity?</h3>
+                    <div class="select-list">
+                        <select name="module">
+                            <option seleected value="FICT">FICT</option>
+                            <option value="FBA">FBA</option>
+                             <option value="FAD">FAD</option>
+                        </select>
+                    </div>
+                
+                  <input type="file" name="image" id="image" />
+
+                <div class="form-submit">
+                    <input type="submit" name="submit" id="submit" class="submit" value="Register" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+{{>imports}}
+    <!-- JS 
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script> -->
+</body>
+</html>
