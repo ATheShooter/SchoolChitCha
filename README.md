@@ -35,3 +35,6 @@ To build for production, run build:
 $ npm run build
 ```
 
+
+uni-anywhere is web application connect  junior  students with senior university  students so they junior could ask senior for help with a particular subject 
+the app will work by senior year student will register themselves as instructor and mention the model that they are good it  than joiner could browse instructors and ask them question and finally the will rate them and it the end of each semester high rate Instructors  (senior students) will git Certificate form university that the been good help for other students.
