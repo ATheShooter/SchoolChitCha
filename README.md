@@ -1,4 +1,4 @@
-# uni-anywhere
+# SchoolCitcha
 
 
  is web application connect  junior  students with senior university  students so they junior could ask senior for help with a particular subject 
